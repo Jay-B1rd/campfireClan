@@ -1,0 +1,11 @@
+@use 'navbar';
+
+.charlist {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+}
