@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: space-around;
   position: fixed;
-  background-color: rgba(194, 240, 254, 0.9);
+  background-color: rgba(214, 152, 111, 0.9);
   z-index: 1;
 }
 
@@ -15,10 +15,10 @@ body, .container {
   margin: 0;
   padding: 0;
   font-family: "Quicksand", sans-serif;
-  background-image: url("../images/vesselint.png");
+  background-image: url("../images/campfirebg.png");
   background-attachment: fixed;
   background-size: 100%;
-  color: #1C2527;
+  color: #080F0A;
 }
 
 .main {
@@ -31,20 +31,20 @@ body, .container {
 }
 
 .mainbadge {
-  width: 58%;
+  width: 48%;
   border: solid black 1px;
   border-radius: 5px;
   margin: 0.5vh;
   padding: 2%;
-  background-color: rgba(194, 240, 254, 0.9);
+  background-color: rgba(214, 152, 111, 0.9);
 }
 
 a {
-  color: #104657;
+  color: #18241a;
 }
 
 .charicon {
-  width: 25%;
+  width: 35%;
   border-radius: 20px;
   margin-right: 2%;
 }
@@ -56,11 +56,11 @@ a {
 }
 
 .menubadge {
-  width: 48%;
+  width: 43%;
   border: solid black 1px;
   border-radius: 5px;
   margin: 0.5vh;
   padding: 2%;
   text-align: center;
-  background-color: rgba(194, 240, 254, 0.9);
+  background-color: rgba(214, 152, 111, 0.9);
 }/*# sourceMappingURL=style.css.map */

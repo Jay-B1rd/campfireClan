@@ -1,7 +1,7 @@
 //this is titled navbar but in reality it controls most of the main styling
-$mainc: rgba(194, 240, 254, 0.9);
-$fontc: #1C2527;
-$link: #104657;
+$mainc: rgba(214, 152, 111, 0.9);
+$fontc: #080F0A;
+$link: #18241a;
 
 .navbar {
     width: 100%;
@@ -20,7 +20,7 @@ body, .container {
     margin: 0;
     padding: 0;
     font-family: "Quicksand", sans-serif;
-    background-image: url("../images/vesselint.png");
+    background-image: url("../images/campfirebg.png");
     background-attachment: fixed;
     background-size: 100%;
     color: $fontc;
@@ -36,7 +36,7 @@ body, .container {
 }
 
 .mainbadge {
-    width: 58%;
+    width: 48%;
     border: solid black 1px;
     border-radius: 5px;
     margin: 0.5vh;
