@@ -1,1 +1,15 @@
 // god i love scss
+
+@use 'navbar';
+
+.charicon {
+    width: 25%;
+    border-radius: 50px;
+    margin-right: 2%;
+}
+
+.char {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

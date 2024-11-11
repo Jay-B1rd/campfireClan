@@ -1,1 +1,46 @@
-/*# sourceMappingURL=style.css.map */
+.navbar {
+  width: 100%;
+  display: flex;
+  border-bottom: solid black 1px;
+  height: 4vh;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+}
+
+body, .container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  top: 5vh;
+}
+
+.mainbadge {
+  width: 58%;
+  border: solid black 1px;
+  border-radius: 5px;
+  margin: 0.5vh;
+  padding: 2%;
+}
+
+.charicon {
+  width: 25%;
+  border-radius: 50px;
+  margin-right: 2%;
+}
+
+.char {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
