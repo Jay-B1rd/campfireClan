@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: space-around;
   position: fixed;
-  background-color: rgba(214, 152, 111, 0.9);
+  background-color: rgba(210, 132, 80, 0.9);
   z-index: 1;
 }
 
@@ -36,7 +36,7 @@ body, .container {
   border-radius: 5px;
   margin: 0.5vh;
   padding: 2%;
-  background-color: rgba(214, 152, 111, 0.9);
+  background-color: rgba(210, 132, 80, 0.9);
 }
 
 a {
@@ -44,7 +44,7 @@ a {
 }
 
 .charicon {
-  width: 35%;
+  width: 25%;
   border-radius: 20px;
   margin-right: 2%;
 }
@@ -62,5 +62,5 @@ a {
   margin: 0.5vh;
   padding: 2%;
   text-align: center;
-  background-color: rgba(214, 152, 111, 0.9);
+  background-color: rgba(210, 132, 80, 0.9);
 }/*# sourceMappingURL=style.css.map */

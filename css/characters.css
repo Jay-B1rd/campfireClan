@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: space-around;
   position: fixed;
-  background-color: rgba(214, 152, 111, 0.9);
+  background-color: rgba(210, 132, 80, 0.9);
   z-index: 1;
 }
 
@@ -36,7 +36,7 @@ body, .container {
   border-radius: 5px;
   margin: 0.5vh;
   padding: 2%;
-  background-color: rgba(214, 152, 111, 0.9);
+  background-color: rgba(210, 132, 80, 0.9);
 }
 
 a {
@@ -123,4 +123,15 @@ a {
 .galitem {
   display: flex;
   align-items: center;
+}
+
+.char {
+  display: flex;
+  flex-direction: column;
+}
+
+.credits {
+  text-align: center;
+  font-size: 0.9em;
+  opacity: 0.8;
 }/*# sourceMappingURL=characters.css.map */

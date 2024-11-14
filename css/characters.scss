@@ -91,3 +91,16 @@
     display: flex;
     align-items: center;
 }
+
+//BIO & LORE DETAILS
+
+.char {
+    display: flex;
+    flex-direction: column;
+}
+
+.credits {
+    text-align: center;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
