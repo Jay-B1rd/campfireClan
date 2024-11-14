@@ -1,5 +1,8 @@
 @use 'navbar';
 
+//I should have come up with a better name for this but it's too much of a hassle to change now.
+//This file is for the character list. The other is for the individual character pages.
+
 .charlist {
     display: flex;
     flex-direction: column;
@@ -8,4 +11,32 @@
 
 .title {
     font-size: 36px;
+}
+
+.charicon {
+    width: 20%;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.char {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.chartitle {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.charname {
+    font-size: 20px;
 }

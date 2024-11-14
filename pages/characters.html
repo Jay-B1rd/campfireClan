@@ -14,7 +14,7 @@
         <div class="navbar">
             <span>Robur's Vessel</span>
             <a href="../index.html">Home</a>
-            <a href="pages/characters.html">Character List</a>
+            <a href="#">Character List</a>
             <a href="#">Gallery</a>
             <a href="#">Lore & Timeline</a>
         </div>
@@ -24,29 +24,127 @@
                 <span class="summary">
                     Zephyr is in charge of all clan migration details. For more information, please contact Zephyr directly.
                 </span>
-                <!-- <div class="char"> this div is meant to be re-used for each character
-                    <img src="images/alaria_icon.png" alt="blank" class="charicon">
-                    <div class="chardesc">
-                        <span class="charname"><a href="pages/charpages/alaria.html">Alaria</a></span>
-                        <p>insert the character bio here. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam incidunt, pariatur, porro itaque rerum iste repudiandae fugiat atque dicta sit debitis! Accusantium illum rem aliquid! Cupiditate modi voluptas assumenda facilis.</p>
+                <div class="charlist">
+                    <!-- I'm very aware the most efficient way to do this is with a grid system. However, I hate the grid system. Flexbox my beloved forever and ever. -->
+                    <div class="row">
+                        <div class="char">
+                            <img src="../images/alaria_icon.png" class="charicon">
+                            <div class="chartitle">
+                                <span class="charname"><a href="charpages/alaria.html">Alaria</a></span>
+                                <span class="charjob">Marine Biologist (App)</span>
+                            </div>
+                        </div>
+                        <div class="char">
+                            <img src="../images/aervaicon.png" class="charicon">
+                            <div class="chartitle">
+                                <span class="charname"><a href="charpages/aerva.html">Aerva</a></span>
+                                <span class="charjob">Storyteller & Entertainer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="char">
+                            <img src="../images/hibiicon.png" class="charicon">
+                            <div class="chartitle">
+                                <span class="charname"><a href="charpages/hibi.html">Hibi (Hibiscus)</a></span>
+                                <span class="charjob">Machinist (App)</span>
+                            </div>
+                        </div>
+                        <div class="char">
+                            <img src="../images/typhaicon.png" class="charicon">
+                            <div class="chartitle">
+                                <span class="charname"><a href="charpages/typha.html">Typha</a></span>
+                                <span class="charjob">Meteorologist</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="char">
+                            <img src="../images/helianicon.png" class="charicon">
+                            <div class="chartitle">
+                                <span class="charname"><a href="charpages/helian.html">Helian (Helianthus)</a></span>
+                                <span class="charjob">Ecologist</span>
+                            </div>
+                        </div>
+                        <div class="char">
+                            <img src="../images/alliaicon.png" class="charicon">
+                            <div class="chartitle">
+                                <span class="charname"><a href="charpages/allia.html">Allia (Browallia)</a></span>
+                                <span class="charjob">Child</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="char">
+                            <img src="../images/emeriicon.png" class="charicon">
+                            <div class="chartitle">
+                                <span class="charname"><a href="charpages/emeri.html">Emeri</a></span>
+                                <span class="charjob">Warp Core Engineer</span>
+                            </div>
+                        </div>
+                        <div class="char">
+                            <img src="../images/alstroicon.png" class="charicon">
+                            <div class="chartitle">
+                                <span class="charname"><a href="charpages/alstro.html">Alstro</a></span>
+                                <span class="charjob">Foreign Communications Specialist</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="char">
+                            <img src="../images/rhanicon.png" class="charicon">
+                            <div class="chartitle">
+                                <span class="charname"><a href="charpages/rhan.html">Rhan (Rhanterium)</a></span>
+                                <span class="charjob">Star Cartographer & Navigator</span>
+                            </div>
+                        </div>
+                        <div class="char">
+                            <img src="../images/hederaicon.png" class="charicon">
+                            <div class="chartitle">
+                                <span class="charname"><a href="charpages/hedera.html">Hedera</a></span>
+                                <span class="charjob">Lead Machinist</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="char">
+                            <img src="../images/nageiaicon.png" class="charicon">
+                            <div class="chartitle">
+                                <span class="charname"><a href="charpages/nageia.html">Nageia</a></span>
+                                <span class="charjob">Engineer & Warehouse Keeper</span>
+                            </div>
+                        </div>
+                        <div class="char">
+                            <img src="../images/zephyricon.png" class="charicon">
+                            <div class="chartitle">
+                                <span class="charname"><a href="charpages/zephyr.html">Zephyr</a></span>
+                                <span class="charjob">Clan Clerk & Data Scientist</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="char">
+                            <img src="../images/cicericon.png" class="charicon">
+                            <div class="chartitle">
+                                <span class="charname"><a href="charpages/cicer.html">Cicer</a></span>
+                                <span class="charjob">Head Chef & Gastronomer</span>
+                            </div>
+                        </div>
+                        <div class="char">
+                            <img src="../images/amaryllisicon.jpeg" class="charicon">
+                            <div class="chartitle">
+                                <span class="charname"><a href="charpages/amaryllis.html">Amaryllis</a></span>
+                                <span class="charjob">Seamstress (App)</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <br>
-                <div class="char">
-                    <img src="images/hibiicon.png" alt="blank" class="charicon">
-                    <div class="chardesc">
-                        <span class="charname"><a href="pages/charpages/hibi.html">Hibi (Hibiscus)</a></span>
-                        <p>insert the character bio here. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam incidunt, pariatur, porro itaque rerum iste repudiandae fugiat atque dicta sit debitis! Accusantium illum rem aliquid! Cupiditate modi voluptas assumenda facilis.</p>
-                    </div>
-                </div>
-                <br>
-                <div class="char">
-                    <img src="#" alt="blank" class="charicon">
-                    <div class="chardesc">
-                        <span class="charname"><a href="pages/charpages/#">Character Name</a></span>
-                        <p>insert the character bio here. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam incidunt, pariatur, porro itaque rerum iste repudiandae fugiat atque dicta sit debitis! Accusantium illum rem aliquid! Cupiditate modi voluptas assumenda facilis.</p>
-                    </div>
-                </div> -->
             </div>
         </div>
     </div>
