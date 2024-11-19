@@ -1,2 +1,2 @@
 # campfireClan
-yurt
+A Nomai clan created entirely by the members of the Campfire server. The clan is completely unrelated to the rest of Outer Wilds, with its present time period being set sometime between the death of Escall's Clan and the events of Outer Wilds.
