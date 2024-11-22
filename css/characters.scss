@@ -94,7 +94,7 @@
 
 //BIO & LORE DETAILS
 
-.char {
+.story {
     display: flex;
     flex-direction: column;
 }
@@ -103,4 +103,73 @@
     text-align: center;
     font-size: 0.9em;
     opacity: 0.8;
+}
+
+.char {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.basic {
+    display: flex;
+    flex-direction: row;
+}
+
+.division {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.bleft, .bright{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.btitle {
+    font-size: 22px;
+    text-align: center;
+}
+
+.traitsub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.traitleft, .traitmid, .traitright {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.looks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.looksimg {
+    width: 40%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.personality {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.skills {
+    width: 50%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
 }
