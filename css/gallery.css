@@ -1,0 +1,79 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  border-bottom: solid black 1px;
+  height: 5vh;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  background-color: rgba(210, 132, 80, 0.9);
+  z-index: 1;
+}
+
+body, .container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  background-image: url("../images/campfirebg.png");
+  background-attachment: fixed;
+  background-size: 100%;
+  color: #080F0A;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  position: relative;
+  top: 5vh;
+}
+
+.mainbadge {
+  width: 48%;
+  border: solid black 1px;
+  border-radius: 5px;
+  margin: 0.5vh;
+  padding: 2%;
+  background-color: rgba(210, 132, 80, 0.9);
+}
+
+a {
+  color: #18241a;
+}
+
+h1 {
+  text-align: center;
+}
+
+.body {
+  display: flex;
+  flex-direction: row;
+}
+
+.left, .right {
+  width: 48%;
+  margin: 0 2%;
+  text-wrap: wrap;
+}
+
+figure {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  position: relative;
+  text-indent: 10px;
+  bottom: 24px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0 0 10px 10px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}/*# sourceMappingURL=gallery.css.map */
