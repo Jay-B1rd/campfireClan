@@ -3,6 +3,16 @@ $mainc: rgba(210, 132, 80, 0.9);
 $fontc: #080F0A;
 $link: #18241a;
 
+@mixin discol {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin disrow {
+    display: flex;
+    flex-direction: row;
+}
+
 .navbar {
     width: 100%;
     display: flex;
@@ -27,8 +37,7 @@ body, .container {
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
+    @include discol;
     width: 100%;
     align-items: center;
     position: relative;

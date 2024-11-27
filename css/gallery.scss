@@ -1,0 +1,37 @@
+//gallery stuff yippee!
+
+@use 'navbar';
+
+h1 {
+    text-align: center;
+}
+
+.body {
+    @include navbar.disrow;
+}
+
+.left, .right {
+    width: 48%;
+    margin: 0 2%;
+    text-wrap: wrap;
+}
+
+figure {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    position: relative;
+    text-indent: 10px;
+    bottom: 24px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0 0 10px 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
