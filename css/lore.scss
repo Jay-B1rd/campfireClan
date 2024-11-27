@@ -1,0 +1,26 @@
+@use 'navbar';
+
+.title {
+    text-align: center;
+    @include navbar.discol;
+}
+
+.vessel {
+    text-align: center;
+    @include navbar.discol;
+}
+
+.vcaption {
+    font-size: 16px;
+    opacity: 60%;
+}
+
+.vimgs {
+    @include navbar.disrow;
+}
+
+.vimg {
+    width: 50%;
+    border-radius: 20px;
+    margin: 2vh;
+}
