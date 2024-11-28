@@ -67,4 +67,11 @@ a {
   padding: 2%;
   text-align: center;
   background-color: rgba(210, 132, 80, 0.9);
+}
+
+.goofytxt {
+  position: fixed;
+  top: 5vh;
+  left: 0;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
