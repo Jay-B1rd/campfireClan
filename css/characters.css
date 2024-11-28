@@ -119,9 +119,15 @@ a {
 }
 
 .galimg {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.imglink {
+  margin: 0;
+  padding: 0;
   width: 30%;
   margin: 1%;
-  border-radius: 20px;
 }
 
 .galitem {

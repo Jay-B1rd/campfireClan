@@ -58,8 +58,12 @@ a {
 }
 
 .charicon {
-  width: 20%;
   border-radius: 20px;
+  width: 100%;
+}
+
+.iconlink {
+  width: 20%;
   margin: 5px;
 }
 
