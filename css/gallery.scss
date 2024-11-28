@@ -29,9 +29,52 @@ figcaption {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 0 0 10px 10px;
+    z-index: 2;
 }
 
 img {
     width: 100%;
     border-radius: 10px;
+}
+
+/* .img-container {
+    position: relative;
+    @extend a;
+}
+  
+.overlay-img {
+    @extend img;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.maratwo {
+    position: relative;
+    z-index: 2;
+    bottom: 56vh;
+}
+
+.ghostcap {
+    position: relative;
+    z-index: 3;
+    bottom: 58.6vh;
+}*/
+
+.maratwo {
+    position: absolute;
+    left: 51%;
+    width: 22%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+.maratwo:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
 }
