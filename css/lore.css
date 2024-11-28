@@ -70,9 +70,9 @@ a {
 }
 
 .vimg {
-  width: 50%;
-  border-radius: 20px;
-  margin: 2vh;
+  width: 96%;
+  border-radius: 50px;
+  padding: 2%;
 }
 
 .banner {
